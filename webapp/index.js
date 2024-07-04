@@ -1,8 +1,8 @@
 sap.ui.define(["sap/ui/core/mvc/XMLView"], (XMLView) => {
     "usar estrito" ;
-    XMLView.criar({
-        viewName: "ui5.walkthrough.view.App"
-    }).entao((oView) => oView.placeAt("conteudo"));
+    XMLView.create({
+        viewName: "ui5.walkthrough.controller.App"
+    }).then((oView) => oView.placeAt("conteudo"));
 });
 
  
