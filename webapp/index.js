@@ -1,4 +1,8 @@
-sap.ui.define([], () => {
+sap.ui.define(["sap/ui/core/mvc/XMLView"], (XMLView) => {
     "usar estrito" ;
-   alert( "UI5 está pronto" );
+    XMLView.criar({
+        viewName: "ui5.walkthrough.view.App"
+    }).entao((oView) => oView.placeAt("conteudo"));
 });
+
+ 
