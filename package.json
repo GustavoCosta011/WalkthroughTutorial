@@ -1,9 +1,10 @@
 {
   "name": "walkthroughtutorial",
   "version": "1.0.0",
-  "description": "Passo a passo do treinamento",
   "main": "index.js",
+  "description" :  "O aplicativo UI5 walkthrough",
   "scripts": {
+    "start" :  "ui5 serve -o index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
