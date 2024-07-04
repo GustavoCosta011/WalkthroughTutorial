@@ -3,9 +3,9 @@ sap.ui.define([
 ],(Controlador) => {
     "usar estrito";
     
-    return Controlador.extend ( "ui5.walkthrough.controller.App",{
-        onShowHello () {
-         alert("OLOKO BICHO");
+    return Controlador.extend("ui5.walkthrough.controller.App",{
+        onShowHello(){
+        alert("OLOKO BICHO");
         }
    });
 });
