@@ -5,7 +5,7 @@ sap.ui.define([
     
     return Controlador.extend ( "ui5.walkthrough.controller.App",{
         onShowHello () {
-         ("OLOKO BICHO");
+         alert("OLOKO BICHO");
         }
    });
 });
