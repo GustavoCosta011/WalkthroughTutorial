@@ -7,4 +7,10 @@
       press=".onShowHello"
       tap =".onCount"
       />
+      <Input
+      value="{/recipienteDeTexto/name}"
+      description="Hello, {/recipienteDeTexto/name}"
+      valueLiveUpdate="true"
+      width="30%"
+      />
  </mvc:Exibir>
