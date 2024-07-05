@@ -4,5 +4,7 @@
     xmlns:mvc= "sap.ui.core.mvc">
       <Button
       text="Say Hello"
-      press=".onShowHello"/>
+      press=".onShowHello"
+      tap =".onCount"
+      />
  </mvc:Exibir>
