@@ -16,6 +16,15 @@ sap.ui.define([
 
             this._count++;                  
             MessageToast.show(sMsg +"\n" + "Contador: " + this._count);
-        },  
+        },
+        
+        async onOpenDialog() {
+            // create dialog lazily
+            this.oDialog ??= await this.loadFragment({
+                name: "ui5.walkthrough.view.HelloDialog"
+            });
+        
+            this.oDialog.open();
+        }
     });
  });
