@@ -11,3 +11,15 @@ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
 .myCustomText{
     color: white;
 }
+.CustomImage{
+    width: 100%;
+    height: 300px;
+    background-image: url('jato.jfif');
+    background-size: cover;
+}
+.sapUiLargeMarginBottom {
+    margin-bottom: 0 !important;
+}
+.sapUiLargeMarginTop {
+    margin-top: 0rem !important;
+}
