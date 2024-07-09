@@ -4,7 +4,8 @@
   "main": "index.js",
   "description": "O aplicativo UI5 walkthrough",
   "scripts": {
-    "start": "ui5 serve -o test/mockServer.html"
+    "start": "ui5 serve -o test/mockServer.html",
+    "teste": "ui5 serve -o test/unit/unitTests.qunit.html"
   },
   "keywords": [],
   "author": "",
