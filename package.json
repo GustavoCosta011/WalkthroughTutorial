@@ -4,7 +4,7 @@
   "main": "index.js",
   "description": "O aplicativo UI5 walkthrough",
   "scripts": {
-    "start": "ui5 serve -o test/mockServer.html",
+    "start": "ui5 serve -o index.html",
     "teste": "ui5 serve -o test/unit/unitTests.qunit.html",
     "opaTest": "ui5 serve -o test/integration/opaTests.qunit.html"
   },
