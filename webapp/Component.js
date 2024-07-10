@@ -1,8 +1,8 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
     "sap/ui/model/json/JSONModel",
-    "sap/ui/model/resource/ResourceModel"
- ], (UIComponent, JSONModel, ResourceModel) => {
+	"sap/ui/Device"
+ ], (UIComponent, JSONModel, Device) => {
     "use strict";
  
     return UIComponent.extend("ui5.walkthrough.Component", {
@@ -22,6 +22,11 @@ sap.ui.define([
             };
             const oModel = new JSONModel(oData);
             this.setModel(oModel);
+            
+            // set device model
+			const oDeviceModel = new JSONModel(Device);
+			oDeviceModel.setDefaultBindingMode("OneWay");
+			this.setModel(oDeviceModel, "device");
 
             // set i18n model
             const i18nModel = new ResourceModel({
