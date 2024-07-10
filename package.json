@@ -5,7 +5,8 @@
   "description": "O aplicativo UI5 walkthrough",
   "scripts": {
     "start": "ui5 serve -o test/mockServer.html",
-    "teste": "ui5 serve -o test/unit/unitTests.qunit.html"
+    "teste": "ui5 serve -o test/unit/unitTests.qunit.html",
+    "opaTest": "ui5 serve -o test/integration/opaTests.qunit.html"
   },
   "keywords": [],
   "author": "",
