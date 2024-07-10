@@ -23,3 +23,10 @@ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
 .sapUiLargeMarginTop {
     margin-top: 0rem !important;
 }
+/*  ProductRating */
+.myAppDemoWTProductRating {
+    padding: 0.75rem;
+}
+.myAppDemoWTProductRating .sapMRI {
+    vertical-align: initial;
+}
